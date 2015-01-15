@@ -1,0 +1,87 @@
+#navigation{
+  //padding: 10px;
+  //padding-left: 20px;
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  background-color: #c1c1c1;
+  height: 35px;
+  color: #000000;
+}
+#navigation a{
+  color:#333333;
+  font-weight: bold;
+  text-decoration: none;
+}
+#navigation a:hover{
+  color:#009900;
+}
+#registration td{
+  padding: 4px;
+  text-align: right;
+}
+input[type=submit], input[type=button],button{
+  padding: 4px;
+}
+.hidden{
+  display: none;
+}
+.errorClass { 
+  border:  1px solid red; 
+}
+#calculator {
+    font-size: 16px;
+    margin-bottom: 10px;
+	margin-right:5px;
+    box-sizing: border-box;
+    float: left;
+    margin-left: 5px;
+}
+
+#search {
+    font-size: 16px;
+    margin-bottom: 10px;
+    float: left;
+    box-sizing: border-box;
+    width: 200px;
+    margin-right: 5px;
+}
+#l1{
+	float: left;
+	height: 35px;
+	background-color: #c1c1c1;
+	
+}
+#l1 a{
+	padding: 5px;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+#l1:hover{
+	background-color: FFFFB8;
+	border-radius: 5px;
+}
+button{
+	border: 1px solid #009900;
+	border-radius: 5px;
+}
+button:hover{
+	border: 1px solid #FFFFB8;
+	background-color: #009900;
+	color: #FFFFFF
+}
+#members{
+	width: 500px
+}
+#heading{
+	padding-right: 250px;
+	text-align: center;
+}
+#page-content{
+	float: left;
+	width: 550px;
+	min-height: 200px;
+	margin-left:10px
+}
+#register{
+	width: 380px;
+}

@@ -1,0 +1,77 @@
+#messagebox {
+	float: left;
+	padding: 20px;
+	padding-top: 0px;
+}
+.bubble  {
+	position: relative;
+	background: #FFFFB8;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	border: #009900 solid 3px;
+}
+.bubble:after  {
+	content: '';
+	position: absolute;
+	border-style: solid;
+	border-width: 15px 12px 15px 0;
+	border-color: transparent #FFFFB8;
+	display: block;
+	width: 0;
+	z-index: 1;
+	left: -12px;
+	top: 40%;
+}
+.bubble:before  {
+	content: '';
+	position: absolute;
+	border-style: solid;
+	border-width: 17px 14px 17px 0;
+	border-color: transparent #009900;
+	display: block;
+	width: 0;
+	z-index: 0;
+	left: -17px;
+	top: 40%;
+}
+#loginbubble {
+	width: 440px;
+	height: 140px;
+	padding: 10px;
+}
+#registerbubble {
+	width: 350px;
+	height: 225px;
+	padding: 10px;
+}
+#memberbubble {
+	width: 250px;
+	height: 200px;
+	padding: 10px;
+}
+#autobubble {
+	width: 150px;
+	height: 200px;
+	padding: 10px;
+}
+#mvcbubble {
+	width: 225px;
+	height: 200px;
+	padding: 10px;
+}
+#futurebubble {
+	width: 225px;
+	height: 200px;
+	padding: 10px;
+}
+#angularbubble {
+	width: 225px;
+	height: 200px;
+	padding: 10px;
+}
+#apibubble{
+	width: 225px;
+	height: 200px;
+	padding: 10px;
+}

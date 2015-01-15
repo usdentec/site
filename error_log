@@ -1,0 +1,2 @@
+[25-Dec-2014 00:24:53 UTC] PHP Fatal error:  Call to undefined function loggedin() in /home/usdentec/public_html/index.php on line 7
+test
